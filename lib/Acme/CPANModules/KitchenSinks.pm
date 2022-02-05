@@ -1,15 +1,15 @@
 package Acme::CPANModules::KitchenSinks;
 
+use strict;
+use warnings;
+
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
 
-use strict;
-use warnings;
-
 our $LIST = {
-    summary => 'Kitchen sink libraries',
+    summary => 'List of kitchen sink libraries',
     description => <<'_',
 
 A "kitchen sink" module is a module that tries to provide all sorts of
